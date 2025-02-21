@@ -11,7 +11,7 @@ const Book = sequelize.define("Book", {
         type: DataTypes.STRING,
         allowNull: false
     },
-    writer: { // ✅ Tambahkan writer
+    writer: {
         type: DataTypes.STRING,
         allowNull: false
     },
